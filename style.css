@@ -23,10 +23,22 @@ button {
     border: 1px solid;
 }
 
+button:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.05); 
+    background: white;
+    color: green;
+}
+
 #delete-btn {
     background: white;
     color: green;
     border: 1px solid;
+}
+
+#delete-btn:hover {
+    background: green;
+    color: white;
 }
 
 ul {
@@ -44,3 +56,4 @@ li a {
     color: green;
     font-size: 1.1rem;
 }
+
